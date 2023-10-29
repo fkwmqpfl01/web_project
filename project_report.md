@@ -10,11 +10,11 @@ Section3의 경우 환율 정보를 나타내었습니다. 오늘의 날씨 조�
 추가적으로 구현한 기능은 navigation기능입니다. 수업 시간에 semantic tag나 자기소개 페이지를 작성하는 시간을 가지면서 navigation을 사용하였었는데 이를 바탕으로 프로젝트에서도 구현해보고자 하였습니다. 다만, 수업시간에서는 navigation을 가로로 배치하는 방식을 사용하였는데, 이번 프로젝트를 하면서는 세로로 구성하는 방법을 생각했고 여러가지 style을 통해 이를 구현해보았습니다. 실제 프로젝트에서Section을 나누면서 페이지의 길이가 길기 때문에 side에 위치한 nav가 유용하게 사용될 것으로 생각합니다. 각각의 navigation를 누르게 되면 section 순서대로 위치가 이동하는 모습을 볼 수 있습니다.       
 ### 수업시간에 배운 개념을 어떻게 적용하였는지 상세하게 설명
 우선 개발 조건이었던 것을 어떻게 충족시켰는지 잠시 설명하자면 다음과 같습니다.
-###### 1. Open web api 
+>> 1. Open web api 
 공공데이터- 동네 예보조회서비스(초단기 실황 조회)/manana- 환율 api
-###### 2. HTML ELEMENT
+>> 2. HTML ELEMENT
 head, style, script, table, nav, div, body, button, form, section, p ,footer,h1, h2, th , tr 등
-###### 3. CSS   
+>> 3. CSS   
 body, .sidenav , .sidenav a:hover, .sidenav a, .content, #s2, #s3, #s1, h1, h2, h3 ,footer, #tbl1, #tr1, #td1, #th1 등(특히 section에서의 table은 버튼을 누른 후 table이 구성될 수 있도록 하기 위해서 section 내에서 document.getElementById(“th1”).style.border와 같은 형식으로 구성하였습니다.),    
 Javascript를 통해 3가지 이상의 동적 기능제공(section1에서 값 입력 시 날씨 정보 table 출력, section2에서 항목 입력 시 그에 대한 간단한 정보 출력, 취소 시 input 칸에 있던 데이터 삭제, section3에서 버튼을 누르면 환율에 대한 정보 출력),    
 Javascript를 활용해 부적절한 입력 및 OPEN API의 response 중 에러에 대한 처리(section1에서 날짜, 시간 data 입력 길이 오류 시 알림 창 띄우기, section1에서 빠진 input 항목이 있을 때 알림 창으로 알리고 focus 옮기기, 두 번째 section에서 input 값이 3글자보다 긴 경우 error를 알림 창을 이용해 표시하기)   
