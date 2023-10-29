@@ -21,7 +21,7 @@ section1에서 값 입력 시 날씨 정보 table 출력, section2에서 항목 
 5. Javascript를 활용해 부적절한 입력 및 OPEN API의 response 중 에러에 대한 처리  
 section1에서 날짜, 시간 data 입력 길이 오류 시 알림 창 띄우기, section1에서 빠진 input 항목이 있을 때 알림 창으로 알리고 focus 옮기기, 두 번째 section에서 input 값이 3글자보다 긴 경우 error를 알림 창을 이용해 표시하기       
 6. jQuery/AJAX/JSON 기능 활용  
-jQuery 기능은 \$(“\#msg”).text( str+ “->”+result) , \$(“\#th11”).text(“이름”) 등의 코드에서 사용하였고, api에서 데이터를 받아올 때 javascript – xhr 기능을 통해 ajax를 사용하기 위해 노력하였다. 또한, 데이터를 JSON parsing을 통해 표에다가 정리를 함으로써 jQuery/AJAX/JSON 기능을 활용하였다.     
+jQuery 기능은 \$(“\#msg”).text( str+ “->”+result) , \$(“\th11”).text(“이름”) 등의 코드에서 사용하였고, api에서 데이터를 받아올 때 javascript – xhr 기능을 통해 ajax를 사용하기 위해 노력하였다. 또한, 데이터를 JSON parsing을 통해 표에다가 정리를 함으로써 jQuery/AJAX/JSON 기능을 활용하였다.     
   
 이번 프로젝트의 경우 아주 색다른 서비스를 구현하기에 아직 코드 구현 면이나 이해 측면에서도 부족한 점이 많아 수업 시간에 배운 내용을 적극 활용하기 위해 노력하였습니다.    
 우선적으로 볼 수 있는 부분이 수업 시간에 배운 css를 활용한 부분입니다. 자기소개 페이지 및 semantic tag 페이지 구성 시 활용했던 h1, h2, section, nav, footer를 활용함으로써 웹페이지를 구성하기 위해 노력했습니다. 사실 section등 body 부분에 있어서 특이한 디자인을 하지는 못했지만 border 등으로 영역 구분을 확실하게 할 수 있도록 노력하였습니다.  CSS부분에 있어서 navigation부분을 수업시간에는 가로로 넣는 방법을 학습했었는데, 일반적으로 인터넷에서 웹페이지를 볼 때 side부분에 navigation을 넣는 방식을 많이 볼 수 있었음을 떠올리고 이를 구현해보기 위해 노력하였습니다. 코드 내에서는 div를 이용했고 href를 이용해 클릭 시 각 section으로 이동할 수 있도록 코드를 구성하였습니다.    
